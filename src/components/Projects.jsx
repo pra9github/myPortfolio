@@ -15,15 +15,15 @@ function Projects() {
       title: 'Shree Logistics',
       description: 'The Shree Logistics website is a dynamic web platform designed for a logistics service provider. It showcases the company’s services, including freight forwarding, transportation, and supply chain solutions. The website offers a user-friendly interface with responsive design to cater to clients looking for information about logistics services.',
       technologies: ['ejs', 'css', 'express', 'nodejs'],
-      githubLink: 'https://github.com/yourusername/project2',
+      githubLink: 'https://github.com/pra9github/ShreeLogistics.git',
       liveLink: 'https://project2-demo.com'
     },
     {
       id: 3,
-      title: 'Data Visualization Dashboard',
-      description: 'An interactive dashboard for visualizing complex datasets using D3.js.',
+      title: 'Placement Management System using ML',
+      description: 'An AI powered web application for the placement and recruitement process at an institute level',
       technologies: ['React', 'D3.js', 'Python', 'Flask'],
-      githubLink: 'https://github.com/yourusername/project3',
+      githubLink: 'https://github.com/pra9github/PMS.git',
       liveLink: 'https://project3-demo.com'
     },
   ];
@@ -53,9 +53,7 @@ function Projects() {
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 mr-4 text-shadow">
                   GitHub
                 </a>
-                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-green-300 hover:text-green-200 text-shadow">
-                  Live Demo
-                </a>
+               
               </div>
             </div>
           ))}
