@@ -20,9 +20,17 @@ function Projects() {
     },
     {
       id: 3,
+      title: 'Medicine Recommendation System',
+      description: 'A Machine Learning model developed to recommend alternate medicines based on the user input. It also provide working links for the medicines from the *Pharmeasy website*.',
+      technologies: ['Python', 'Streamlit', 'css'],
+      githubLink: 'https://github.com/pra9github/Medicine-Recommendation-System.git',
+      liveLink: 'https://project3-demo.com'
+    },
+    {
+      id: 4,
       title: 'Placement Management System using ML',
       description: 'An AI powered web application for the placement and recruitement process at an institute level',
-      technologies: ['React', 'D3.js', 'Python', 'Flask'],
+      technologies: ['React', 'NoSQL', 'Python', 'Flask'],
       githubLink: 'https://github.com/pra9github/PMS.git',
       liveLink: 'https://project3-demo.com'
     },
