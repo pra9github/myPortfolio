@@ -7,7 +7,7 @@ function Projects() {
       title: 'Hotel Recommendation System',
       description: 'A recommendation system for hotels based on user preferences and reviews.',
       technologies: ['Python', 'Streamlit'],
-      githubLink: 'https://github.com/yourusername/project1',
+      githubLink: 'https://github.com/pra9github/HotelRecommendationSystem.git',
       liveLink: 'https://project1-demo.com'
     },
     {
